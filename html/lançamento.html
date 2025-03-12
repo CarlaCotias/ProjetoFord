@@ -8,27 +8,85 @@
 </head>
 <body>
     <header>
-        <img src="../img/logo-ford-256.png" alt="Logo Ford">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="lançamento.html">Lançamento</a></li>
-        <li><a href="contato.html">Contato</a></li>
+        <div class="container">
+            <img src="../img/logo-ford-256.png" alt="Logo Ford">
+             <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="lançamento.html">Lançamento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <iframe src="https://www.youtube.com/embed/vQsryuNmsL0?si=8A7GAIBuzwtQQbNr"></iframe>
-        <img src="../img/XL Cabine.jpg" alt="">
-        <img src="../img/xls 2.2 diesel.jpg" alt="">
-        <img src="../img/storm.jpg" alt="">
+        <div class="video-container center">
+            <iframe src="https://www.youtube.com/embed/vQsryuNmsL0?si=8A7GAIBuzwtQQbNr"></iframe>
+        </div>
+        <!-- <section class="gallery">
+            <img src="../img/XL Cabine.jpg" alt="Carro XL Cabine">
+            <img src="../img/xls 2.2 diesel.jpg" alt="Carro XLS 2.2 Diesel">
+            <img src="../img/storm.jpg" alt="Carro Storm">
+        </section> -->
+
+        <table class="amostra-carros">
+            <tr>
+                <td>
+                    <div class="caixa-carro">
+                        <img src="../img/XL Cabine.jpg" alt="">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <p>FORD RANGER 2.2 XL 4X4 16V MANUAL</p>
+                            <img src="../img/info.png" alt="">
+                        </div>
+                        <p></p>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="caixa-carro">
+                        <img src="../img/xls 2.2 diesel.jpg" alt="">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <p>RANGER 2.2 XL 4X4 16V MANUAL</p>
+                            <img src="../img/info.png" alt="">
+                        </div>
+                        <p></p>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="caixa-carro">
+                        <img src="../img/storm.jpg" alt="">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <p>RANGER 3.2 STORM 4X4 20V AUTOMÁTICO</p>
+                            <img src="../img/info.png" alt="">
+                        </div>
+                        <p></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="center">
+            <button>Comparar Carros</button>
+        </div>
+
     </main>
 
     <footer>
-        <footer>
+        <div class="footer-left">
             <p>Redes Sociais</p>
-            <img src="../img/facebook-50.png" alt="">
-            <img src="../img/instagram-logo-50.png" alt="">
-            <img src="../img/youtube-squared-50.png" alt="">
-            <img src="../img/ford-96.png" alt="">
-         </footer>
+            <img src="../img/facebook-50.png" alt="Logo Facebook">
+            <img src="../img/instagram-logo-50.png" alt="Logo Instagram">
+            <img src="../img/youtube-squared-50.png" alt="Logo YouTube">
+        </div>
+
+        <div class="footer-right">
+            <img src="../img/ford-96.png" alt="Logo Ford">
+        </div>
     </footer>
 </body>
 
